@@ -457,6 +457,11 @@ footer {
   max-width: 800px; /* Increased max width */
   width: 100%;
 }
+.logo-img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain; /* Optional, maintains aspect ratio */
+}
 .animate-icon {
   animation: pulse 1.4s infinite ease-in-out;
 }
