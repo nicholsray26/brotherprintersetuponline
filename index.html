@@ -19,7 +19,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Brother Printer Online Setup</title>
-  <link rel="icon" type="image/png" href="/images/group2.png">
+  <link rel="icon" type="image/png" href="/images/group1.png">
   <link rel="stylesheet" href="style.css" />
   <style>
     .hero {
@@ -70,10 +70,17 @@
       align-items: center;
       padding: 10px 20px;
     }
-    .logo img {
-      height: 62px;
-    }
+    @media (max-width: 900px) {    .logo img {
+      height: 100% !important;
+      width: 100% !important;
+      max-width: 5em;
+    }}
 
+        @media (max-width: 768px) {    .logo img {
+      height: 100% !important;
+      width: 100% !important;
+      max-width: 5em;
+    }}
 .animate-icon {
   animation: pulse 1.4s infinite ease-in-out;
 }
@@ -88,7 +95,7 @@
   <div class="header-container">
     <!-- Logo on the left -->
     <div class="logo">
-      <img src="images/group1.png" alt="Printer Experts Pro Logo" style="width: 100%; max-width: 500px;" />
+      <img src="images/group2.png" alt="Printer Experts Pro Logo" style="width: 100%; max-width: 3.9em;" />
     </div>
 
     <!-- Actions on the right -->
@@ -127,7 +134,7 @@
   <input type="text" id="printerSearchBox" class="search-box" placeholder="Please Search Your Printer" />
 </div>
 
-<button class="search-btn" style="margin-top: 10px; margin-left: 25px; background-color: #007BFF; color: #fff;" onclick="window.location.href='/connect-printer';">SEARCH</button>
+<button class="search-btn" style="margin-top: 10px; margin-left: 25px;" onclick="window.location.href='/connect-printer';">SEARCH</button>
 </div>
 
 
