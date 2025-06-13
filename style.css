@@ -112,7 +112,7 @@ nav a:hover::after {
 }
 
 .hero-text button {
-  background: #2692d0;
+  background: #052AA1;
   color: #fff;
   border: none;
   padding: 12px 24px;
@@ -333,7 +333,7 @@ footer {
 
 /* NAVIGATION BAR */
 .main-nav {
-  background: #2692d0;
+  background: #052AA1;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
