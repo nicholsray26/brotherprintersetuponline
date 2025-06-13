@@ -240,6 +240,24 @@ footer {
   .footer-grid {
     grid-template-columns: 1fr;
   }
+.hero-text {
+  max-width: 600px;
+  width: 100%;
+}
+.search-box {
+  width: 15rem !important;
+}
+.hero {
+  padding: 20px !important;
+}
+.hero img{
+  width: 100% !important;
+}
+.tabs{margin-left: 20px; margin-right: 20px;
+}
+.header-container{display: none !important;}
+
+.main-nav{display: none !important;}
 
   .top-bar {
     flex-direction: column;
